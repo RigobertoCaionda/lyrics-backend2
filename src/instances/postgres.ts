@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const sequelize = new Sequelize(
-   'postgres://hhlxcocjjqpuor:92b2b8be5a2aa67996ec093683846d17d626fc421fae5a8f36f4168359b0e2a1@ec2-44-193-111-218.compute-1.amazonaws.com:5432/d46fb0hfhv9icg',
+   'postgres://ghroucorgycjhy:754eb908fe01eef51ccb8ad104586109f3221132dd7d7508c276add27bfae652@ec2-3-220-59-239.compute-1.amazonaws.com:5432/debnu1jatl1nh2',
    {
       dialectOptions: {
          ssl: {
