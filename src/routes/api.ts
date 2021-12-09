@@ -21,7 +21,7 @@ router.delete('/delete/:id', privateRoute, SongController.remove);
 router.delete('/deleteUser/:id', privateRoute, UserController.remove);
 router.post('/add', privateRoute, upload.single('avatar'), SongController.insert);
 router.post('/register', UserController.register);
-router.post('/registerAdm', privateRoute, UserController.registerAdm);
+router.post('/registerAdm', UserController.registerAdm);
 router.post('/login', UserController.login);
 router.get('/my-account', privateRoute, UserController.my_account);//Privad, so para eu poder saber quem esta logado
 router.get('/users', privateRoute, UserController.getUserList);
